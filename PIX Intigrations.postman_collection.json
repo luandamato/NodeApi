@@ -1,0 +1,620 @@
+{
+	"info": {
+		"_postman_id": "e4736953-4483-4b86-82b1-79620146b4d9",
+		"name": "PIX Intigrations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "getUsers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Luan Damato",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nascimento",
+									"value": "24-09-2000",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "luan@email.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUsers Completo",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Luan Damato",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nascimento",
+									"value": "24-09-2000",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "luan@email.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Luan Damato",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nascimento",
+									"value": "24-09-2000",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "luan@email.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/4",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Mari",
+									"type": "text"
+								},
+								{
+									"key": "nascimento",
+									"value": "1999-09-20",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "nanante@email.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/4",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Luan Damato",
+									"type": "text"
+								},
+								{
+									"key": "nascimento",
+									"value": "2000-09-24",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "luan21@email.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Adresses",
+			"item": [
+				{
+					"name": "getUsersEndereco",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Luan Damato",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "nascimento",
+									"value": "24-09-2000",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "luan@email.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/3/endereco",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"3",
+								"endereco"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endereco",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Cep",
+									"value": "01",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "830",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "82 - B",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/3/endereco",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"3",
+								"endereco"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user's Adress",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "java",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/3/endereco",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"3",
+								"endereco"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Techs",
+			"item": [
+				{
+					"name": "addTech to user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Python",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/2/tech",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"2",
+								"tech"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user's tech",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "java",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/2/tech",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"2",
+								"tech"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users techs",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Cep",
+									"value": "02610080",
+									"type": "text"
+								},
+								{
+									"key": "numero",
+									"value": "45",
+									"type": "text"
+								},
+								{
+									"key": "complemento",
+									"value": "luan21@email.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/user/2/tech",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"user",
+								"2",
+								"tech"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ValeYou",
+			"item": [
+				{
+					"name": "listaBancos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3003/listaBancos",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"listaBancos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultarCep",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cep",
+									"value": "89160216",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/cep",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"cep"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Notification Charge",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "idExternoCobranca",
+									"value": "Empresa de Tecnologia S.A",
+									"type": "text"
+								},
+								{
+									"key": "pagador",
+									"value": "{\"nome\":\"Empresa de Tecnologia S.A\",\"ispb\":\"12345678\",\"agencia\":\"0001\",\"conta\":\"1234567891\",\"nrCpfCnpj\":\"12312312312\",\"tpPessoa\":\"NATURAL_PERSON\"}",
+									"type": "text"
+								},
+								{
+									"key": "valor",
+									"value": "200",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/mobile/payment/pix/notification-charge",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"mobile",
+								"payment",
+								"pix",
+								"notification-charge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Charge",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nome",
+									"value": "Empresa de Tecnologia S.A",
+									"type": "text"
+								},
+								{
+									"key": "cpf",
+									"value": "2133242343",
+									"type": "text"
+								},
+								{
+									"key": "cnpj",
+									"value": "32423432423423",
+									"type": "text"
+								},
+								{
+									"key": "valor",
+									"value": "100.00",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3003/mobile/payment/pix/charge",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"mobile",
+								"payment",
+								"pix",
+								"charge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Balance",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "localhost:3003/mobile/payment/pix/balance",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"mobile",
+								"payment",
+								"pix",
+								"balance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
